@@ -1,0 +1,110 @@
+header{
+    background-color: #466b41;
+    margin: auto;
+    border-radius: 10px;
+   }
+  
+header h1{
+    
+    text-align: center;
+    color: #000000;
+    padding: 10px;
+}
+
+#menu{
+    background-color: #a76a0f;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+#menu li{
+    float: left;
+}
+
+#menu li a{
+    display: block;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.5s;
+}
+
+#menu li a:hover{
+    transition: 0.5s;
+    background-color: #4a9ab4;
+    color: #ffffff;
+}
+
+body{
+ font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+    background-color: #5f2503;
+}
+
+article{
+    background-color: #ffffff;
+    text-align: justify;
+    margin: auto;
+    
+}
+
+ol{
+    padding: 0px;
+    margin: 35px;
+
+}
+
+ol li span{
+    float: right;
+}
+
+ol li{
+    border-bottom:  1px solid #000000;
+}
+
+img{
+    width: 100%;
+}
+
+h2, p{
+
+margin-left: 20px;
+margin-right: 35px;
+}
+
+section{
+    text-align: center;
+    padding: 10px;
+    }
+
+#btt{
+
+    text-decoration: none;
+    background-color: #90921b;
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 7px;
+    transition: 0.5s;
+}
+
+#btt:hover{
+    transition: 0.5s;
+    background-color:  #174d5f
+}
+
+footer{
+    text-align: center;
+    background-color: #add8e6;
+    margin: auto; 
+/*top left bottom right*/
+    padding: 5px 0px 5px 0px;
+}
+
+header, article, footer{
+    width: 50%;
+}
